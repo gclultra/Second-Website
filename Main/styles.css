@@ -1,0 +1,54 @@
+body{
+    overflow:-x hidden;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 105px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    font-size: 24px;
+}
+
+nav li a{
+    text-decoration: underline;
+}
+
+nav li a.contact{
+    color: grey;
+    text-align: center;
+}
+
+form p{
+    background-color: grey;
+    display: inline-block;
+    color: white;
+}
+
+.p fart{
+    background-color: grey;
+    display: inline-block;
+    color: white;
+}

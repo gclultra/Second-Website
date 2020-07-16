@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>  
+<body>
+    
+    <header>
+        <h1>(Big Company)</h1>
+    </header>
+    <section class="exp">
+        <div>    
+            <h2>Please Answer this survey about (Product)</h2>
+        </div>
+    </section>
+    <nav class="Nav">
+        <ul>
+            <li><a href="contact.html" class="contact">Contact (Big Company)</a></li>
+        </ul>
+    </nav>
+
+    <!-- add note here -->
+    <form>
+        <p2>How much did you enjoy (Product)</p><br>
+
+        <input type="radio" name="answer" value="Not that much" id=option-1>
+        <label for="option-1">Not at all</label><br>
+        <input type="radio" name="answer" value="Could have been better" id=option-2>
+        <label for="option-2">Could have been better</label><br>
+        <input type="radio" name="answer" value="Yes" id=option-3>
+        <label for="option-3">Yes</label><br>
+        <input type="radio" name="answer" value="Absolutely loved it" id=option-4>
+        <label for="option-4">Absolutely loved it</label>
+
+        <br><br>
+
+        <label for="question">Roblox Fandom Questionnaire:</label>
+        <select name="question" id="question">
+            <option value="q1">What's your favourite Roblox minigame</option>
+            <option value="q2">Is your name Emily</option>
+            <option value="q3">Are you Five and do you like to go outside?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Roblox true fan answer:</label>
+            <input type="text" id="answer" name="answer">
+        
+        <br><br>
+
+        <label for="bio">Your Bio</label><br>
+        <textarea name="Bio" id="bio" cols="30" rows="10" placeholder="About you..."></textarea>
+
+        <br><br>
+        
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username..." required>
+        <br><br>
+        <label for="email">Enter E-Mail:</label>
+        <input type="email"id="email" name="email" placeholder="Your E-Mail..." required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Choose a password..." required>
+        
+        <input type="submit" value="Submit the form">
+
+    </form>
+</body>  
+</html>
