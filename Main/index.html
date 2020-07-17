@@ -21,9 +21,9 @@
         </ul>
     </nav>
 
-    <!-- add note here -->
+    <p>Please select one answer per question.</p>
     <form>
-        <p2>How much did you enjoy (Product)</p><br>
+        <p2>How much did you enjoy (Product)?</p2><br>
 
         <input type="radio" name="answer" value="Not that much" id=option-1>
         <label for="option-1">Not at all</label><br>
@@ -32,27 +32,37 @@
         <input type="radio" name="answer" value="Yes" id=option-3>
         <label for="option-3">Yes</label><br>
         <input type="radio" name="answer" value="Absolutely loved it" id=option-4>
-        <label for="option-4">Absolutely loved it</label>
+        <label for="option-4">Absolutely loved it</label><br>
 
-        <br><br>
-
-        <label for="question">Roblox Fandom Questionnaire:</label>
-        <select name="question" id="question">
-            <option value="q1">What's your favourite Roblox minigame</option>
-            <option value="q2">Is your name Emily</option>
-            <option value="q3">Are you Five and do you like to go outside?</option>
-        </select>
-
-        <br><br>
-
-        <label for="answer">Roblox true fan answer:</label>
+        <br>
+        
+        <p2>Why did you purchase (Product)?</p2><br>
+        
+        <input type="radio" name="answer-2" value="Recommendation" id=option-1-2>
+        <label for="option-1-2">Recommendation</label><br>
+        <input type="radio" name="answer-2" value="Recommendation" id=option-2-2>
+        <label for="option-2-2">Through Google</label><br>
+        <input type="radio" name="answer-2" value="Recommendation" id=option-3-2>
+        <label for="option-3-2">Through Ads on social media</label><br>
+        <input type="radio" name="answer-2" value="Recommendation" id=option-4-2>
+        <label for="option-4-2">Representative</label>
+        <label for="answer">If you would like to say which representative</label><br>
             <input type="text" id="answer" name="answer">
         
+
         <br><br>
 
-        <label for="bio">Your Bio</label><br>
-        <textarea name="Bio" id="bio" cols="30" rows="10" placeholder="About you..."></textarea>
-
+        <p2>What is your age?</p2><br>
+        
+        <input type="radio" name="answer-3" value="18-30" id=option-1-3>
+        <label for="option-1-2">18-30</label><br>
+        <input type="radio" name="answer-3" value="31-42" id=option-2-3>
+        <label for="option-2-2">31-42</label><br>
+        <input type="radio" name="answer-3" value="43-54" id=option-3-3>
+        <label for="option-3-2">43-54</label><br>
+        <input type="radio" name="answer-3" value="55+" id=option-4-3>
+        <label for="option-4-2">55+</label>
+        
         <br><br>
         
         <label for="username">Enter Username:</label>
@@ -64,6 +74,7 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="Choose a password..." required>
         
+        <br><br>
         <input type="submit" value="Submit the form">
 
     </form>

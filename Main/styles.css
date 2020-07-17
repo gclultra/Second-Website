@@ -37,7 +37,7 @@ nav li a{
 }
 
 nav li a.contact{
-    color: grey;
+    color: black;
     text-align: center;
 }
 
@@ -47,8 +47,12 @@ form p{
     color: white;
 }
 
-.p fart{
-    background-color: grey;
+p{
     display: inline-block;
-    color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+p2{
+    text-decoration: underline;
 }
