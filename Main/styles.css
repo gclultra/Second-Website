@@ -2,57 +2,44 @@ body{
     overflow:-x hidden;
 }
 
-h1{
-    display: block;
+body, ul, li, h1, h2 a{
+    margin:0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header h1{
     text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
 }
 
 h2{
     text-align: center;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-nav{
-    background-color: #f4f4f4;
-    padding: 20px;
-    position: sticky;
-    top: 105px;
-}
-
-nav ul{
-    white-space: nowrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-nav li{
-    display: inline;
-    font-size: 24px;
+    color: red;
 }
 
 nav li a{
-    text-decoration: underline;
-}
-
-nav li a.contact{
-    color: black;
     text-align: center;
-}
-
-form p{
-    background-color: grey;
-    display: inline-block;
+    display: block;
+    background-color: red;
     color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 27px;
 }
 
 p{
-    display: inline-block;
-    color: black;
+    font-weight: bold;
     text-decoration: underline;
+    border: 8px solid red;
+    display: inline-block;
+    border-radius: 24px;
+    padding: 6px;
 }
 
 p2{
-    text-decoration: underline;
+    font-weight: bold;
 }
